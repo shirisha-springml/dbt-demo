@@ -1,0 +1,18 @@
+version: 2
+
+macros:
+  - name: stg_customers
+    arguments:
+      - name: customer_id
+        type: integer
+
+  - name: stg_orders
+    arguments:
+      - name: order_id
+        type: integer
+
+      - name: status
+        type: string
+
+      - name: customer_id
+        type: integer
